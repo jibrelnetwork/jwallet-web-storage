@@ -1,0 +1,35 @@
+{
+  "name": "local-storage-polyfill",
+  "version": "0.0.1",
+  "description": "Web Storage (API) polyfill. Using following storages in order of priority: localStorage -> cookie -> memory",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint ./src",
+    "build": "./node_modules/.bin/babel ./src --out-dir ./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jibrelnetwork/local-storage-polyfill.git"
+  },
+  "author": "Jibrel Network",
+  "license": "MIT",
+  "keywords": [
+    "storage",
+    "webstorage",
+    "localstorage",
+    "polyfill",
+    "cookie",
+    "memory"
+  ],
+  "bugs": {
+    "url": "https://github.com/jibrelnetwork/local-storage-polyfill/issues"
+  },
+  "homepage": "https://github.com/jibrelnetwork/local-storage-polyfill#readme",
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.6.0",
+    "eslint": "4.8.0",
+    "eslint-config-airbnb-base": "12.0.1",
+    "eslint-plugin-import": "2.7.0"
+  }
+}
