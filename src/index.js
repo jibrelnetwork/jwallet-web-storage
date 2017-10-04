@@ -9,10 +9,10 @@ function getStorage() {
   if (isStorageAvailable(LocalStorage)) {
     return LocalStorage
   } else if (isStorageAvailable(CookieStorage)) {
-    return CookieStorage
+    return new CookieStorage()
   }
 
-  return MemoryStorage
+  return new MemoryStorage()
 }
 
 module.exports = getStorage()
