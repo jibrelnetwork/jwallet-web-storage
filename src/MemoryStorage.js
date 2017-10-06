@@ -1,8 +1,4 @@
 class MemoryStorage {
-  static get name() {
-    return 'MemoryStorage'
-  }
-
   constructor() {
     this.storage = {}
   }

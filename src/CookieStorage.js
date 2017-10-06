@@ -1,10 +1,6 @@
 const TEN_YEARS = 1000 * 60 * 60 * 24 * 365 * 10
 
 class CookieStorage {
-  static get name() {
-    return 'CookieStorage'
-  }
-
   setItem(item, data) {
     const expire = new Date()
     expire.setTime(expire.getTime() + TEN_YEARS)

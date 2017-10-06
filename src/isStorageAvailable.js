@@ -7,7 +7,7 @@ function isStorageAvailable(storage) {
 
     const storedData = JSON.parse(storage.getItem(testItem))
 
-    if (storedData.test !== testData.testData) {
+    if (storedData.test !== testData.test) {
       return false
     }
 
