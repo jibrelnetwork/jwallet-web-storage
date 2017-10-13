@@ -1,5 +1,5 @@
 {
-  "name": "local-storage-polyfill",
+  "name": "jwallet-web-storage",
   "version": "0.0.1",
   "description": "Web Storage (API) polyfill. Using following storages in order of priority: localStorage -> cookie -> memory",
   "main": "index.js",
@@ -9,11 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jibrelnetwork/local-storage-polyfill.git"
+    "url": "git+https://github.com/jibrelnetwork/jwallet-web-storage.git"
   },
   "author": "Jibrel Network",
   "license": "MIT",
   "keywords": [
+    "jibrel",
+    "jibrelnetwork",
+    "jwallet",
     "storage",
     "webstorage",
     "localstorage",
@@ -22,9 +25,9 @@
     "memory"
   ],
   "bugs": {
-    "url": "https://github.com/jibrelnetwork/local-storage-polyfill/issues"
+    "url": "https://github.com/jibrelnetwork/jwallet-web-storage/issues"
   },
-  "homepage": "https://github.com/jibrelnetwork/local-storage-polyfill#readme",
+  "homepage": "https://github.com/jibrelnetwork/jwallet-web-storage#readme",
   "devDependencies": {
     "babel-cli": "6.26.0",
     "babel-preset-env": "1.6.0",
