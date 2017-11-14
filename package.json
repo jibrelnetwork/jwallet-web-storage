@@ -1,6 +1,6 @@
 {
   "name": "jwallet-web-storage",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Web Storage (API) polyfill. Using following storages in order of priority: localStorage -> cookie -> memory",
   "main": "index.js",
   "engines": {
