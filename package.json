@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "Web Storage (API) polyfill. Using following storages in order of priority: localStorage -> cookie -> memory",
   "main": "index.js",
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": "^3.0.0"
+  },
   "scripts": {
     "lint": "./node_modules/.bin/eslint ./src",
     "compile": "./node_modules/.bin/babel ./src --out-dir ./lib"
