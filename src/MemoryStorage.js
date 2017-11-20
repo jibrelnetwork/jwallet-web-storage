@@ -1,6 +1,7 @@
 class MemoryStorage {
   constructor() {
     this.storage = {}
+    this.isMemory = true
   }
 
   setItem(item, data) {
